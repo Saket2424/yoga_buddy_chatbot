@@ -7,7 +7,7 @@ from h2ogpte import H2OGPTE
 
 
 # Initialize OpenAI client
-API_KEY = "sk-vT6ijlDsPcLb3YQBLGf4mfF7FvcAurPhmI8DGFtZpJ8GM173"
+API_KEY = "" # Put your API key from H2Ogpt here.
 REMOTE_ADDRESS = "https://h2ogpte.genai.h2o.ai"
 client = H2OGPTE(address=REMOTE_ADDRESS, api_key=API_KEY)
 llm_selected = 'gpt-35-turbo-1106'
